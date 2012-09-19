@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9CEE4D1160A59EE001DE6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CEE4D0160A59EE001DE6BC /* Foundation.framework */; };
+		A9CEE4D6160A59EE001DE6BC /* SampleSubproject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9CEE4D5160A59EE001DE6BC /* SampleSubproject.h */; };
+		A9CEE4D8160A59EE001DE6BC /* SampleSubproject.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CEE4D7160A59EE001DE6BC /* SampleSubproject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9CEE4CB160A59EE001DE6BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A9CEE4D6160A59EE001DE6BC /* SampleSubproject.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9CEE4CD160A59EE001DE6BC /* libSampleSubproject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleSubproject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CEE4D0160A59EE001DE6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9CEE4D4160A59EE001DE6BC /* SampleSubproject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleSubproject-Prefix.pch"; sourceTree = "<group>"; };
+		A9CEE4D5160A59EE001DE6BC /* SampleSubproject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleSubproject.h; sourceTree = "<group>"; };
+		A9CEE4D7160A59EE001DE6BC /* SampleSubproject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleSubproject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CEE4CA160A59EE001DE6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CEE4D1160A59EE001DE6BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9CEE4C2160A59EE001DE6BC = {
+			isa = PBXGroup;
+			children = (
+				A9CEE4D2160A59EE001DE6BC /* SampleSubproject */,
+				A9CEE4CF160A59EE001DE6BC /* Frameworks */,
+				A9CEE4CE160A59EE001DE6BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CEE4CE160A59EE001DE6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CEE4CD160A59EE001DE6BC /* libSampleSubproject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CEE4CF160A59EE001DE6BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9CEE4D0160A59EE001DE6BC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9CEE4D2160A59EE001DE6BC /* SampleSubproject */ = {
+			isa = PBXGroup;
+			children = (
+				A9CEE4D5160A59EE001DE6BC /* SampleSubproject.h */,
+				A9CEE4D7160A59EE001DE6BC /* SampleSubproject.m */,
+				A9CEE4D3160A59EE001DE6BC /* Supporting Files */,
+			);
+			path = SampleSubproject;
+			sourceTree = "<group>";
+		};
+		A9CEE4D3160A59EE001DE6BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9CEE4D4160A59EE001DE6BC /* SampleSubproject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CEE4CC160A59EE001DE6BC /* SampleSubproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CEE4DB160A59EE001DE6BC /* Build configuration list for PBXNativeTarget "SampleSubproject" */;
+			buildPhases = (
+				A9CEE4C9160A59EE001DE6BC /* Sources */,
+				A9CEE4CA160A59EE001DE6BC /* Frameworks */,
+				A9CEE4CB160A59EE001DE6BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleSubproject;
+			productName = SampleSubproject;
+			productReference = A9CEE4CD160A59EE001DE6BC /* libSampleSubproject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CEE4C4160A59EE001DE6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rusty Zarse";
+			};
+			buildConfigurationList = A9CEE4C7160A59EE001DE6BC /* Build configuration list for PBXProject "SampleSubproject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9CEE4C2160A59EE001DE6BC;
+			productRefGroup = A9CEE4CE160A59EE001DE6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CEE4CC160A59EE001DE6BC /* SampleSubproject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CEE4C9160A59EE001DE6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CEE4D8160A59EE001DE6BC /* SampleSubproject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9CEE4D9160A59EE001DE6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9CEE4DA160A59EE001DE6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CEE4DC160A59EE001DE6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SampleSubproject.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSubproject/SampleSubproject-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9CEE4DD160A59EE001DE6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SampleSubproject.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSubproject/SampleSubproject-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CEE4C7160A59EE001DE6BC /* Build configuration list for PBXProject "SampleSubproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CEE4D9160A59EE001DE6BC /* Debug */,
+				A9CEE4DA160A59EE001DE6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CEE4DB160A59EE001DE6BC /* Build configuration list for PBXNativeTarget "SampleSubproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CEE4DC160A59EE001DE6BC /* Debug */,
+				A9CEE4DD160A59EE001DE6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CEE4C4160A59EE001DE6BC /* Project object */;
+}
