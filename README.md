@@ -1,0 +1,2 @@
+XcodeStaticLibrarySampleSubproject
+==================================
