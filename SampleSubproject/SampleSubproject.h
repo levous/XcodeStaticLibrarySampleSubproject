@@ -6,8 +6,4 @@
 //  Copyright (c) 2012 Rusty Zarse. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface SampleSubproject : NSObject
-
-@end
+#import <SampleSubproject/SSHelloer.h>

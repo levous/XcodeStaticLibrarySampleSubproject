@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98C2679160A5AC7000CB40F /* SSHelloer.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C2678160A5AC7000CB40F /* SSHelloer.m */; };
+		A98C267A160A5B5B000CB40F /* SSHelloer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A98C2677160A5AC7000CB40F /* SSHelloer.h */; };
 		A9CEE4D1160A59EE001DE6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CEE4D0160A59EE001DE6BC /* Foundation.framework */; };
 		A9CEE4D6160A59EE001DE6BC /* SampleSubproject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9CEE4D5160A59EE001DE6BC /* SampleSubproject.h */; };
-		A9CEE4D8160A59EE001DE6BC /* SampleSubproject.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CEE4D7160A59EE001DE6BC /* SampleSubproject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +20,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				A98C267A160A5B5B000CB40F /* SSHelloer.h in CopyFiles */,
 				A9CEE4D6160A59EE001DE6BC /* SampleSubproject.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -26,11 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A98C2677160A5AC7000CB40F /* SSHelloer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHelloer.h; sourceTree = "<group>"; };
+		A98C2678160A5AC7000CB40F /* SSHelloer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHelloer.m; sourceTree = "<group>"; };
 		A9CEE4CD160A59EE001DE6BC /* libSampleSubproject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleSubproject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CEE4D0160A59EE001DE6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9CEE4D4160A59EE001DE6BC /* SampleSubproject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleSubproject-Prefix.pch"; sourceTree = "<group>"; };
 		A9CEE4D5160A59EE001DE6BC /* SampleSubproject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleSubproject.h; sourceTree = "<group>"; };
-		A9CEE4D7160A59EE001DE6BC /* SampleSubproject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleSubproject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				A9CEE4D5160A59EE001DE6BC /* SampleSubproject.h */,
-				A9CEE4D7160A59EE001DE6BC /* SampleSubproject.m */,
 				A9CEE4D3160A59EE001DE6BC /* Supporting Files */,
+				A98C2677160A5AC7000CB40F /* SSHelloer.h */,
+				A98C2678160A5AC7000CB40F /* SSHelloer.m */,
 			);
 			path = SampleSubproject;
 			sourceTree = "<group>";
@@ -139,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9CEE4D8160A59EE001DE6BC /* SampleSubproject.m in Sources */,
+				A98C2679160A5AC7000CB40F /* SSHelloer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +204,7 @@
 				GCC_PREFIX_HEADER = "SampleSubproject/SampleSubproject-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -212,6 +217,7 @@
 				GCC_PREFIX_HEADER = "SampleSubproject/SampleSubproject-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -235,6 +241,7 @@
 				A9CEE4DD160A59EE001DE6BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

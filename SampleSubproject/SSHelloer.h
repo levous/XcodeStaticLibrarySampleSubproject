@@ -1,13 +1,15 @@
 //
-//  SampleSubproject.m
+//  SSHelloer.h
 //  SampleSubproject
 //
 //  Created by Rusty Zarse on 9/19/12.
 //  Copyright (c) 2012 Rusty Zarse. All rights reserved.
 //
 
-#import "SampleSubproject.h"
+#import <UIKit/UIKit.h>
 
-@implementation SampleSubproject
+@interface SSHelloer : NSObject
+
+- (NSString *)hello;
 
 @end
